@@ -1,0 +1,115 @@
+.footer {
+    margin-top: 4rem;
+    font-family: 'Poppins';
+    margin-bottom: 6rem;
+}
+
+.footer-width {
+    display: block;
+    justify-content: center;
+}
+
+
+
+.social  {
+    display: flex;
+    margin-top: 2rem;
+}
+
+
+.contact {
+    display: block;
+    justify-content: space-between;
+}
+
+.contact .width {
+    width: 13rem;
+    line-height: 34px;
+    margin-top: 2rem;
+}
+
+.arctic-text h2{
+    margin-bottom: 0.5rem;
+
+}
+
+.arctic-text p {
+    line-height: 20px;
+}
+
+.blue {
+    color: var(--blue);
+    margin-bottom: 2rem;
+}
+
+.footer-image {
+    width: 45px;
+    height: 45px;
+    border: 1px dashed var(--grey);
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.2rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.facebook {
+    width: 45px;
+    height: 45px;
+    border: 1px solid var(--grey);
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.2rem;
+    margin-right: 1.5rem;
+}
+
+.twitter {
+    width: 45px;
+    height: 45px;
+    border: 1px solid var(--grey);
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.2rem;
+    
+}
+
+.instagram {
+    width: 45px;
+    height: 45px;
+    border: 1px solid var(--grey);
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.2rem;
+    margin-right: 1.5rem;
+
+}
+
+@media (min-width:1100px) {
+    .footer-width {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contact {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+}
